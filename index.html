@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Bank - Demo Only (Ethical Testing)</title>  <!-- वॉर्निंग कम करने के लिए -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Fake Bank - Demo Only</h2>  <!-- सेफ दिखाने के लिए -->
+            <p>This is for ethical hacking testing. Please login to continue (Test Mode)</p>
+            <form action="/" method="POST" id="loginForm">
+                <input type="text" id="username" name="username" placeholder="Username (Demo)" required>
+                <input type="password" id="password" name="password" placeholder="Password (Demo)" required>
+                <button type="submit">Login (Test)</button>
+            </form>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
